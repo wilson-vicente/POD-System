@@ -83,6 +83,7 @@ class Escaner extends CI_Controller {
 			$data    = array();
 			$mensaje = array();
 
+
 			if (isset($datos["detalle"]) && count($datos["detalle"]) > 0) {
 				$this->load->model(["Detalle_venta_model"]);
 				$venta = new Venta_model();
